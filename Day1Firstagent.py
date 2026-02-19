@@ -5,7 +5,7 @@ from google.adk.tools import google_search
 from google.genai import types
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC5FbFvC8OG6mEvOYOghYzpIa0e3B03jXU"
+os.environ["GOOGLE_API_KEY"] = "Api"
 import asyncio 
 print("✅ ADK components imported successfully.")
 retry_config=types.HttpRetryOptions(

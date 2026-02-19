@@ -6,7 +6,7 @@ from google.genai import types
 import asyncio , os
 
 print("✅ ADK components imported successfully.")
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC5FbFvC8OG6mEvOYOghYzpIa0e3B03jXU"
+os.environ["GOOGLE_API_KEY"] = "Api"
 retry_config=types.HttpRetryOptions(
     attempts=5,  # Maximum retry attempts
     exp_base=7,  # Delay multiplier
